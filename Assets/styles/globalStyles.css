@@ -23,6 +23,7 @@ input::placeholder {
   }
 
   button{
+    cursor: pointer;
     color: #ffff;
     border-radius: 50px;
     background-color: #FF2D04 ;
@@ -31,3 +32,15 @@ input::placeholder {
     font-size: 32px;
     font-weight: bold;
   }
+
+  button:hover{
+    cursor: pointer;
+    color: #ffff;
+    border-radius: 50px;
+    background-color: #d32300 ;
+    border: 1px solid #FF2D04 ;
+    box-shadow: rgb(24, 27, 29) 0px 20px 30px -10px;
+    font-size: 32px;
+    font-weight: bold;
+  }
+
