@@ -3,19 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="../Assets/styles/globalStyles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <title>Challenge01</title>
   </head>
   <body>
     <section class="containerPage">
       <section class="sectionLogin">
         <header class="headerLogin">
-          <h1 class="titleLogin">WELCOME</h1>
-          <p class="descriptionLogin">
-            To continue browsing safely, log in to he network
-          </p>
+          <div class="container">
+            <h1 class="titleLogin">WELCOME,</h1>
+            <p class="descriptionLogin">
+              To continue browsing safely, log in to the network.
+            </p>
+          </div>
         </header>
         <form class="formLogin">
-          <h1 class="formTitle">LOGIN</h1>
+          <h1 class="formTitle">Login</h1>
           <div class="containerInputs">
             <input type="text" placeholder="user name" id="inputUsername" />
             <input type="text" placeholder="password" id="inputPassword" />
@@ -27,7 +37,11 @@
         </div>
       </section>
       <section class="sectionCompass">
-        <img src="../Assets/images/logo_CompassUol.png" alt="" />
+        <img
+          src="../Assets/images/logo_CompassUol.png"
+          alt="CompassUol"
+          id="CompassUolLogo"
+        />
       </section>
     </section>
   </body>

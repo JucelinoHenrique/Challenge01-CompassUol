@@ -1,0 +1,114 @@
+.containerPage {
+  height: 100vh;
+  overflow: auto;
+  display: flex;
+  color: #e0e0e0;
+  background-color: #26292c;
+  
+}
+
+.sectionLogin {
+  height: 100vh; 
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #26292c;
+}
+
+.headerLogin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 197px;
+  gap: 18px;
+}
+
+.titleLogin {
+  color:#E0E0E0;  
+  font-weight: 500;
+  font-size: 50px;
+  width: 273px;
+  height: 75px;
+}
+
+.descriptionLogin {
+ color: #E0E0E0;
+  font-size: 15px;
+  width: 301px;
+  font-weight: 500;
+  height: 52px;
+  padding-bottom: 135px;
+}
+
+.formLogin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formTitle{
+    color: #E0E0E0;
+    margin-right: 300px;
+    font-weight: 500;
+    padding-bottom: 32px;
+    font-size: 30px;
+}
+
+.containerInputs{
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+#inputUsername {
+  width: 359px;
+  height: 60px;
+  border-radius: 50px;
+  border: 1px solid #ffff;
+}
+
+#inputPassword {
+    width: 359px;
+    height: 60px;
+    border-radius: 50px;
+    border: 1px solid #ffff;
+  }
+
+.containerButtons{
+    margin-top: 115px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#buttonLogin{
+    border-radius: 50px;
+    width: 379px;
+    height: 67px;
+}
+
+#buttonRegister{
+    width: 379px;
+    height: 67px;
+}
+
+.sectionCompass{
+    height: 105vh;
+    width: 50vw;
+    background-image: url('../Assets/images/imagePC_background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#CompassUolLogo{
+    margin-top: 36px;
+    height: 66px;
+    width: 484px;
+}
