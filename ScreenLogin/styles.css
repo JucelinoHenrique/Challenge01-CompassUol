@@ -17,6 +17,7 @@
 }
 
 .headerLogin {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,8 +52,9 @@
 }
 
 .formTitle{
+    position: relative;
+    right: 165px;
     color: #E0E0E0;
-    margin-right: 300px;
     font-weight: 500;
     padding-bottom: 32px;
     font-size: 30px;
@@ -90,6 +92,16 @@
     border: 1px solid #ffff;
   }
 
+  #iconPassword{
+    position: relative;
+     left: 15px;
+  }
+
+  #iconUsername{
+    position: relative;
+     left: 15px;
+  }
+
 .containerButtons{
     margin-top: 115px;
     display: flex;
@@ -109,6 +121,7 @@
     height: 67px;
 }
 
+
 .sectionCompass{
     height: 105vh;
     width: 50vw;
@@ -125,3 +138,5 @@
     height: 66px;
     width: 484px;
 }
+
+
