@@ -1,0 +1,171 @@
+.containerPage {
+  height: auto;
+  box-sizing: border-box;
+  display: flex;
+  color: #e0e0e0;
+  background-color: aqua;
+}
+
+.sectionLogin {
+  height: auto;
+  box-sizing: border-box;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  background: linear-gradient(to top left, #26292c, #35333d);
+}
+
+.headerLogin {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  margin-top: 197px;
+  gap: 18px;
+}
+
+.titleLogin {
+  color: #e0e0e0;
+  font-weight: 400;
+  font-size: 60px;
+}
+
+.descriptionLogin {
+  color: #e0e0e0;
+  font-size: 16px;
+  width: 303px;
+  font-weight: 400;
+}
+
+.formLogin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formTitle {
+  position: relative;
+  right: 145px;
+  color: #e0e0e0;
+  font-weight: 400;
+  padding-bottom: 32px;
+  font-size: 30px;
+}
+
+.containerInputs {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+}
+
+.containerUsername {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
+.containerPassword {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
+#inputUsername {
+  width: 359px;
+  height: 60px;
+  border-radius: 50px;
+  border: 1px solid #ffff;
+}
+
+#inputPassword {
+  width: 359px;
+  height: 60px;
+  border-radius: 50px;
+  border: 1px solid #ffff;
+}
+
+#iconPassword {
+  position: relative;
+  left: 15px;
+}
+
+#iconUsername {
+  position: relative;
+  left: 15px;
+}
+
+.containerButtons {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding-bottom: 70px;
+  gap: 20px;
+}
+
+#buttonLogin {
+  font-size: 32px;
+  border-radius: 50px;
+  width: 379px;
+  height: 67px;
+}
+
+#buttonRegister {
+  font-size: 32px;
+  width: 379px;
+  height: 67px;
+}
+
+.sectionCompass {
+  height: auto;
+  width: 50%;
+  background-image: url("../Assets/images/imagePC_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#CompassUolLogo {
+  margin-top: 36px;
+  height: 66px;
+  width: 484px;
+}
+
+@media (min-height: 1000px) {
+  /* Estilos para telas com altura menor que 700px */
+  .sectionLogin,
+  .sectionCompass {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 512px) {
+  .sectionCompass {
+    display: none;
+  }
+
+  .sectionLogin {
+    width: 100%;
+    height: 100%;
+  }
+
+  #buttonLogin {
+    border-radius: 50px;
+    width: 80%;
+    height: 67px;
+  }
+
+  #buttonRegister {
+    width: 80%;
+    height: 67px;
+  }
+}
