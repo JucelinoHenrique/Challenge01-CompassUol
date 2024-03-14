@@ -1,8 +1,8 @@
-*{
-    font-family: "Mulish";
-    margin: 0;
-    padding: 0;
-   
+* {
+  box-sizing: border-box;
+  font-family: "Mulish";
+  margin: 0;
+  padding: 0;
 }
 
 input {
@@ -11,36 +11,33 @@ input {
   outline: none;
   box-shadow: none;
   color: #ffff;
-  padding-left: 10px ;
+  padding-left: 10px;
   padding-right: 10px;
   font-size: 16px;
 }
 
 input::placeholder {
-    font-family: "Mulish";
-    color: #E0E0E0;
-    font-size: 16px;
-  }
+  font-family: "Mulish";
+  color: #e0e0e0;
+  font-size: 16px;
+}
 
-  button{
-    cursor: pointer;
-    color: #ffff;
-    border-radius: 50px;
-    background-color: #FF2D04 ;
-    border: 1px solid #FF2D04 ;
-    box-shadow: rgb(38, 41, 44) 0px 20px 30px -10px;
-    font-size: 32px;
-    font-weight: bold;
-  }
+button {
+  cursor: pointer;
+  color: #ffff;
+  border-radius: 50px;
+  background-color: #ff2d04;
+  border: 1px solid #ff2d04;
+  box-shadow: rgb(38, 41, 44) 0px 20px 30px -10px;
+  font-weight: bold;
+}
 
-  button:hover{
-    cursor: pointer;
-    color: #ffff;
-    border-radius: 50px;
-    background-color: #d32300 ;
-    border: 1px solid #FF2D04 ;
-    box-shadow: rgb(24, 27, 29) 0px 20px 30px -10px;
-    font-size: 32px;
-    font-weight: bold;
-  }
-
+button:hover {
+  cursor: pointer;
+  color: #ffff;
+  border-radius: 50px;
+  background-color: #d32300;
+  border: 1px solid #ff2d04;
+  box-shadow: rgb(24, 27, 29) 0px 20px 30px -10px;
+  font-weight: bold;
+}
