@@ -76,18 +76,19 @@
   justify-self: center;
 }
 
-#inputUsername {
+.input{
   width: 359px;
   height: 60px;
   border-radius: 50px;
   border: 1px solid #ffff;
-}
-
-#inputPassword {
-  width: 359px;
-  height: 60px;
-  border-radius: 50px;
-  border: 1px solid #ffff;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  color: #ffff;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
 }
 
 #iconPassword {
@@ -121,6 +122,11 @@
   font-size: 32px;
   width: 379px;
   height: 67px;
+
+  a{
+    font-size: 32px;
+    color: #ffff;
+  }
 }
 
 .sectionCompass {
