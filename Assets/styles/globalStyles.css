@@ -1,23 +1,13 @@
 * {
   box-sizing: border-box;
-  font-family: "Mulish", sans-serif;
+  font-family: "Mulish";
   margin: 0;
   padding: 0;
 }
 
-a {
-  text-decoration: none; 
-  color: #ff2d04;
-  background-color: transparent; 
-}
-
-
 input {
-  width: 359px;
-  height: 60px;
-  border-radius: 50px;
-  border: 1px solid #ffff;
   background-color: transparent;
+  border: none;
   outline: none;
   box-shadow: none;
   color: #ffff;
