@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
-  var iconUsername = document.querySelector("#iconUsername");
-  var iconPassword = document.querySelector("#iconPassword");
-  var inputUsername = document.querySelector("#inputUsername");
-  var inputPassword = document.querySelector("#inputPassword");
+  let iconUsername = document.querySelector("#iconUsername");
+  let iconPassword = document.querySelector("#iconPassword");
+  let inputUsername = document.querySelector("#inputUsername");
+  let inputPassword = document.querySelector("#inputPassword");
 
   inputUsername.addEventListener("focus", function () {
     iconUsername.style.transition = "all 2s ease-in-out";
