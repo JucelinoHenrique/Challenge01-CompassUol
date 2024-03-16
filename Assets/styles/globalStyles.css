@@ -14,15 +14,21 @@ a {
 
 
 input {
-  width: 359px;
+  width: 344px;
   height: 60px;
+  padding-left: 15px;
   border-radius: 50px;
   border: 1px solid #ffff;
   background-color: transparent;
-  border: none;
   outline: none;
   box-shadow: none;
   color: #ffff;}
+
+input::placeholder{
+  font-family: 'Musilh', sans-serif;
+  color: #b4b4b4 ;
+}  
+
 
 button {
   cursor: pointer;
