@@ -28,3 +28,34 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+const verifyUser = () => {
+  const userName = document.getElementById("inputUsername");
+  const password = document.getElementById("inputPassword");
+  let errorMessage = document.querySelector(".errorMessage");
+  const dataUserString = localStorage.getItem("dataUser");
+
+  errorMessage.textContent = "";
+
+  if (dataUserString) {
+    const dataUser = JSON.parse(dataUserString);
+    if (
+      userName.value === dataUser.email &&
+      password.value === dataUser.password
+    ) {
+      console.log("sucesso");
+      window.location.href = "../ScreenHome/home.html";
+    } else {
+      userName.classList.add("inputInvalid");
+      password.classList.add("inputInvalid");
+      errorMessage.textContent =
+        "Wow, invalid username or password. Please, try again!";
+    }
+  } else {
+    userName.classList.add("inputInvalid");
+    password.classList.add("inputInvalid");
+    errorMessage.textContent = "Unregistered user, please register!";
+  }
+};
+
+document.getElementById("buttonLogin").addEventListener("click", verifyUser);
