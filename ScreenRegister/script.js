@@ -7,7 +7,7 @@ const saveDataUser = () => {
   let email = document.getElementById("email").value.trim();
   let password = document.getElementById("password").value;
   let confirmPassword = document.getElementById("confirmPassword").value;
-  let errorMessage = document.getElementById("errorMessage");
+  let errorMessage = document.querySelector(".errorMessage");
 
   errorMessage.textContent = "";
 
