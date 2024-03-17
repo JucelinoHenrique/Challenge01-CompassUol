@@ -50,3 +50,16 @@ button:hover {
   box-shadow: rgb(24, 27, 29) 0px 20px 30px -10px;
   font-weight: bold;
 }
+
+
+.errorMessage{
+  margin-top: 10px;
+  text-align: center;
+  width: 283px;
+  font-size: 16px;
+  color:#E9B425;
+}
+
+.inputInvalid{
+  border: 1px solid  #E9B425;;
+}
