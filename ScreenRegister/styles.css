@@ -1,0 +1,28 @@
+.formItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 471px;
+    padding-bottom: 18px;
+}
+
+.formLogin{
+    gap: 16px
+}
+
+.headerLogin{
+    text-align: left;
+    margin-top: 94px;
+    align-items: center;
+    right: 60px ;
+}
+
+.sectionlogin{
+    gap: 73px;
+}
+
+
+#errorMessage{
+    font-size: 16px;
+    color:#E9B425;
+}
