@@ -26,22 +26,37 @@
         <form class="formLogin">
           <div class="formItem">
             <label for="fistName">fist name</label>
-            <input type="text" placeholder="Your first name" id="firstName" />
+            <input
+              type="text"
+              placeholder="Your first name"
+              id="firstName"
+              required
+            />
           </div>
 
           <div class="formItem">
             <label for="lastName">last name</label>
-            <input type="text" placeholder="Your last name" id="lastName" />
+            <input
+              type="text"
+              placeholder="Your last name"
+              id="lastName"
+              required
+            />
           </div>
 
           <div class="formItem">
             <label for="birthDate">birth date</label>
-            <input type="text" placeholder="MM/DD/YYYY" id="birthDate" />
+            <input type="date" placeholder="MM/DD/YYYY" id="birthDate" />
           </div>
 
           <div class="formItem">
             <label for="country">Your Contry</label>
-            <input type="text" placeholder="Your Contry" id="country" />
+            <input
+              type="text"
+              placeholder="Your Contry"
+              id="country"
+              required
+            />
           </div>
 
           <div class="formItem">
@@ -51,22 +66,34 @@
 
           <div class="formItem">
             <label for="email">e-mail</label>
-            <input type="email" placeholder="A void e-mail here" id="email" />
+            <input
+              type="email"
+              placeholder="A void e-mail here"
+              id="email"
+              required
+            />
           </div>
 
           <div class="formItem">
             <label for="password">password</label>
-            <input type="password" placeholder="Your password" id="password" />
+            <input
+              type="password"
+              placeholder="Your password"
+              id="password"
+              required
+            />
           </div>
 
           <div class="formItem">
-            <label for="ConfirmPassword">password</label>
+            <label for="confirmPassword">password</label>
             <input
               type="password"
               placeholder="Confirm your password"
-              id="ConfirmPassword"
+              id="confirmPassword"
+              required
             />
           </div>
+          <p id="errorMessage"></p>
         </form>
         <div class="containerButtons">
           <button id="buttonRegister" type="submit">Register Now</button>
