@@ -6,16 +6,50 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center ;
     padding: 25px 40px;
+
+    img{
+        width: 150px;
+        height: 42px;
+    }
+
+
    
     .containerDateTime{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
+        margin-top: -10px;
+        
+        
+        .time{
+            font-size: 120px ;
+        }
     }
+
+    .containerWeather{
+        align-items: center;
+        width: 121px;
+        height: 78px;
+        display: flex;
+        flex-direction: column;
+        
+        .containerTemp{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+            img{
+                width: 30px;
+            }}
+        .city{
+            color: #454545;
+            font-size: 12px;
+        }
+    
+    }
+    
 
 }
 
@@ -131,12 +165,20 @@ footer{
     }
 
     .logout{
-        color: #FFFFFF;
+       
         display: flex;
         justify-content: center;
         align-items: center;
         height: 99px;
         width: 131px;
+
+        a{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
     }
 }
 
+
+
+}

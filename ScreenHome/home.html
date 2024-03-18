@@ -10,12 +10,15 @@
     <header>
       <img src="../Assets/images/LogoCompasso 1.png" alt="Compasso UOL Logo" />
       <div class="containerDateTime">
-        <span class="time">11:26</span>
-        <span class="date">terça-feira, 17 de março de 2020</span>
+        <h1 class="time" id="time"></h1>
+        <p class="date" id="date"></p>
       </div>
-      <div class="ContainerWeither">
-        <span class="city">tucurui</span>
-        <span class="weither">22</span>
+      <div class="containerWeather">
+        <p class="city" id="city"></p>
+        <div class="containerTemp">
+          <img id="icon" />
+          <h2 class="weither" id="weather"></h2>
+        </div>
       </div>
     </header>
     <main>
@@ -44,7 +47,7 @@
 
     <footer>
       <div class="containerWarning">
-        <p class="warning"></p>
+        <p class="warning">
           Essa janela do navegador é usada para manter sua sessão de
           autenticação ativa. Deixe-a aberta em segundo plano e abra uma nova
           janela para continuar a navegar.
@@ -53,21 +56,23 @@
       <div class="containerRefresh">
         <p class="description">Application refresh in</p>
         <div class="containerTime">
-        <p class="counter" id="count"></p>
-        <p>seconds</p>
+          <p class="counter" id="count"></p>
+          <p>seconds</p>
         </div>
       </div>
 
       <div class="links">
         <div class="navigation">
-            <a href="https://www.google.com.br/" >Continuar navegando</a>
+          <a href="https://www.google.com.br/">Continuar navegando</a>
         </div>
         <div class="logout">
-        <a href="../ScreenLogin/index.html" >Logout</a>
+          <a href="../ScreenLogin/index.html">Logout</a>
         </div>
       </div>
     </footer>
   </body>
 </html>
 
+<script type="module" src="./api.js"></script>
 <script src="./script.js"></script>
+<script src="./dateTime.js"></script>
