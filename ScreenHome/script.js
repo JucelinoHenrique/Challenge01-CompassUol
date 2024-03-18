@@ -3,7 +3,7 @@ let timeRemaining = 30;
 const updateCounter = () => {
   document.getElementById("count").textContent = `${timeRemaining}`;
 
-  if (tempoRestante === 0) {
+  if (timeRemaining === 0) {
     clearInterval(intervalId);
     localStorage.clear();
     window.location.href = "../ScreenLogin/index.html";
@@ -11,5 +11,4 @@ const updateCounter = () => {
     timeRemaining--;
   }
 };
-
 const intervalId = setInterval(updateCounter, 1000);
