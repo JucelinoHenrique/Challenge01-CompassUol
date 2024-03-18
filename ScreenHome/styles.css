@@ -112,3 +112,31 @@ footer{
         font-weight: bold;
     }
 }
+
+
+.links{
+     display: flex;
+     align-items: center;
+    a{
+        font-size: 12px;
+    }
+
+    .navigation{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff;
+        height: 99px;
+        width: 131px;
+    }
+
+    .logout{
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 99px;
+        width: 131px;
+    }
+}
+
