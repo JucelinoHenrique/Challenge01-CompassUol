@@ -43,7 +43,7 @@ const verifyUser = () => {
       userName.value === dataUser.email &&
       password.value === dataUser.password
     ) {
-      console.log("sucesso");
+      localStorage.setItem("userAuth", "true");
       window.location.href = "../ScreenHome/home.html";
     } else {
       userName.classList.add("inputInvalid");

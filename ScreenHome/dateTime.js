@@ -1,7 +1,7 @@
 const currentDate = new Date();
 
-const hour = currentDate.getHours();
-const minutes = currentDate.getMinutes();
+const hour = String(currentDate.getHours()).padStart(2, "0");
+const minutes = String(currentDate.getMinutes()).padStart(2, "0");
 const dateFormat = {
   weekday: "long",
   year: "numeric",

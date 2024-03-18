@@ -11,3 +11,7 @@ const updateCounter = () => {
   }
 };
 const intervalId = setInterval(updateCounter, 1000);
+
+if (localStorage.getItem("userAuth") !== "true") {
+  window.location.href = "../ScreenLogin/index.html";
+}
