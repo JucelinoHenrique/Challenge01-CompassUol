@@ -5,8 +5,7 @@ const updateCounter = () => {
 
   if (timeRemaining === 0) {
     clearInterval(intervalId);
-    localStorage.clear();
-    window.location.href = "../ScreenLogin/index.html";
+    window.location.reload();
   } else {
     timeRemaining--;
   }
