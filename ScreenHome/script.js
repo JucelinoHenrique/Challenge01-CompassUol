@@ -1,17 +1,15 @@
-let tempoRestante = 30;
-
-const intervalId = setInterval(updateCounter, 1000);
+let timeRemaining = 30;
 
 const updateCounter = () => {
-  document.getElementById("count").textContent = `${tempoRestante}`;
+  document.getElementById("count").textContent = `${timeRemaining}`;
 
   if (tempoRestante === 0) {
     clearInterval(intervalId);
-
     localStorage.clear();
-
     window.location.href = "../ScreenLogin/index.html";
   } else {
-    tempoRestante--;
+    timeRemaining--;
   }
 };
+
+const intervalId = setInterval(updateCounter, 1000);
