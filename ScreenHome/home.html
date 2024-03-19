@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Compasso UOL</title>
+    <link rel="stylesheet" href="../Assets/styles/globalStyles.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <img src="../Assets/images/LogoCompasso 1.png" alt="Compasso UOL Logo" />
+      <div class="containerDateTime">
+        <h1 class="time" id="time"></h1>
+        <p class="date" id="date"></p>
+      </div>
+      <div class="containerWeather">
+        <p class="city" id="city"></p>
+        <div class="containerTemp">
+          <img id="icon" />
+          <h2 class="weither" id="weather"></h2>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="containerImage">
+        <img src="../Assets/images/bola-LogoCompasso 1.png" alt="" />
+      </section>
+      <section class="missionStatement">
+        <div class="container">
+          <h1 class="firstTitle">Our mission is</h1>
+          <p>Nossa missão é</p>
+        </div>
+        <div class="container">
+          <h1>To transform the world</h1>
+          <p>transformar o mundo</p>
+        </div>
+        <div class="container">
+          <h1>building digital experiences</h1>
+          <p>construindo experiências digitais</p>
+        </div>
+        <div class="container">
+          <h1>that enable our client´s growth</h1>
+          <p>que permitam o crescimento de nossos clientes</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="containerWarning">
+        <p class="warning">
+          Essa janela do navegador é usada para manter sua sessão de
+          autenticação ativa. Deixe-a aberta em segundo plano e abra uma nova
+          janela para continuar a navegar.
+        </p>
+      </div>
+      <div class="containerRefresh">
+        <p class="description">Application refresh in</p>
+        <div class="containerTime">
+          <p class="counter" id="count"></p>
+          <p>seconds</p>
+        </div>
+      </div>
+
+      <div class="links">
+        <nav class="navigation">
+          <a href="https://www.google.com.br/">Continuar navegando</a>
+        </nav>
+        <nav class="logout">
+          <a href="../ScreenLogin/index.html">Logout</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<script type="module" src="./api.js"></script>
+<script src="./script.js"></script>
+<script src="./dateTime.js"></script>
